@@ -1,0 +1,205 @@
+2:07:38 PM: Executing ':DacapoRunner.main()'...
+
+> Task :compileJava
+> Task :processResources UP-TO-DATE
+> Task :classes
+
+> Task :DacapoRunner.main()
+classpath ::dacapo\
+outputPath ::dacapoOutput\IndexingGraphFS
+classpath::dacapo\bloat\bloat.jar
+fileName::bloat
+outputpath::dacapoOutput\IndexingGraphFS\bloat\bloat
+Call graph stats:
+  Nodes: 6524
+  Edges: 43375
+  Methods: 7650
+  Bytecode Bytes: 464826
+
+Visited all instructions..
+Points-to Graph building time::12025ms
+Number of nodes::27535
+contextSummaryCount::0
+Found root nodes!!5792
+Found leaf nodes!!11029
+
+ FIELD SENSITIVE##########################
+Allocating memory for FS Adjacency list!!
+Adjacency list for Field Sensitive analysis build completed!!
+Time taken::280718 ms
+Adjacency list written to the file
+Total Time taken to build Field sensitive Input adjacency list::280755 ms
+No of Edges::29095
+File written
+File written
+
+ Pointer graph statistics#########
+Number of nodes::27535
+Total time taken::292899 ms
+
+
+classpath::dacapo\chart\chart.jar
+fileName::chart
+outputpath::dacapoOutput\IndexingGraphFS\chart\chart
+Call graph stats:
+  Nodes: 6373
+  Edges: 72463
+  Methods: 7526
+  Bytecode Bytes: 459095
+
+Visited all instructions..
+Points-to Graph building time::17404ms
+Number of nodes::26020
+contextSummaryCount::0
+Found root nodes!!4863
+Found leaf nodes!!10737
+
+ FIELD SENSITIVE##########################
+Allocating memory for FS Adjacency list!!
+Adjacency list for Field Sensitive analysis build completed!!
+Time taken::1117997 ms
+Adjacency list written to the file
+Total Time taken to build Field sensitive Input adjacency list::1118070 ms
+No of Edges::47705
+File written
+File written
+
+ Pointer graph statistics#########
+Number of nodes::26020
+Total time taken::1135671 ms
+
+
+classpath::dacapo\eclipse\eclipse.jar
+fileName::eclipse
+outputpath::dacapoOutput\IndexingGraphFS\eclipse\eclipse
+Call graph stats:
+  Nodes: 5427
+  Edges: 32494
+  Methods: 6516
+  Bytecode Bytes: 379096
+
+Visited all instructions..
+Points-to Graph building time::6340ms
+Number of nodes::19441
+contextSummaryCount::0
+Found root nodes!!4866
+Found leaf nodes!!7730
+
+ FIELD SENSITIVE##########################
+Allocating memory for FS Adjacency list!!
+Adjacency list for Field Sensitive analysis build completed!!
+Time taken::76666 ms
+Adjacency list written to the file
+Total Time taken to build Field sensitive Input adjacency list::76703 ms
+No of Edges::21237
+File written
+File written
+
+ Pointer graph statistics#########
+Number of nodes::19441
+Total time taken::83141 ms
+
+
+classpath::dacapo\fop\fop.jar
+fileName::fop
+outputpath::dacapoOutput\IndexingGraphFS\fop\fop
+Call graph stats:
+  Nodes: 6613
+  Edges: 33965
+  Methods: 8344
+  Bytecode Bytes: 552134
+
+Visited all instructions..
+Points-to Graph building time::9502ms
+Number of nodes::25097
+contextSummaryCount::0
+Found root nodes!!6767
+Found leaf nodes!!10811
+
+ FIELD SENSITIVE##########################
+Allocating memory for FS Adjacency list!!
+Adjacency list for Field Sensitive analysis build completed!!
+Time taken::190070 ms
+Adjacency list written to the file
+Total Time taken to build Field sensitive Input adjacency list::190119 ms
+No of Edges::26351
+File written
+File written
+
+ Pointer graph statistics#########
+Number of nodes::25097
+Total time taken::199729 ms
+
+
+classpath::dacapo\jython\jython.jar
+fileName::jython
+outputpath::dacapoOutput\IndexingGraphFS\jython\jython
+Call graph stats:
+  Nodes: 9737
+  Edges: 126205
+  Methods: 10843
+  Bytecode Bytes: 560943
+
+Visited all instructions..
+Points-to Graph building time::58645ms
+Number of nodes::50803
+contextSummaryCount::0
+Found root nodes!!10629
+Found leaf nodes!!15994
+
+ FIELD SENSITIVE##########################
+Allocating memory for FS Adjacency list!!
+Adjacency list for Field Sensitive analysis build completed!!
+Time taken::32298889 ms
+Adjacency list written to the file
+Total Time taken to build Field sensitive Input adjacency list::32299039 ms
+No of Edges::128505
+File written
+File written
+
+ Pointer graph statistics#########
+Number of nodes::50803
+Total time taken::32358105 ms
+
+
+classpath::dacapo\pmd\pmd.jar
+fileName::pmd
+outputpath::dacapoOutput\IndexingGraphFS\pmd\pmd
+Call graph stats:
+  Nodes: 6244
+  Edges: 34385
+  Methods: 7334
+  Bytecode Bytes: 449596
+
+Visited all instructions..
+Points-to Graph building time::7897ms
+Number of nodes::26065
+contextSummaryCount::0
+Found root nodes!!6448
+Found leaf nodes!!10762
+
+ FIELD SENSITIVE##########################
+Allocating memory for FS Adjacency list!!
+Adjacency list for Field Sensitive analysis build completed!!
+Time taken::197710 ms
+Adjacency list written to the file
+Total Time taken to build Field sensitive Input adjacency list::197770 ms
+No of Edges::28966
+File written
+File written
+
+ Pointer graph statistics#########
+Number of nodes::26065
+Total time taken::205801 ms
+
+
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 9h 31m 38s
+3 actionable tasks: 2 executed, 1 up-to-date
+11:39:17 PM: Execution finished ':DacapoRunner.main()'.
